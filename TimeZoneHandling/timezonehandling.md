@@ -4,8 +4,13 @@ Handling time zones in Pandas involves ensuring that your datetime data is corre
 
 ## Aware vs. Naive Datetime Objects:
 
-Naive Datetime Objects: These are unaware of time zones. When you create a datetime object without specifying a time zone, it is considered naive.
-Aware Datetime Objects: These objects have an associated time zone information. Pandas supports time zone-aware datetime objects using the pytz library.
+**Naive Datetime Objects:** 
+
+These are unaware of time zones. When you create a datetime object without specifying a time zone, it is considered naive.
+
+**Aware Datetime Objects:** 
+
+These objects have an associated time zone information. Pandas supports time zone-aware datetime objects using the pytz library.
 
 ## Localizing Datetime Objects:
 
